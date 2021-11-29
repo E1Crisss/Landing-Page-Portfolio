@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #00043a;
+    background-image: url(./img/fondo.png);
     font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #407ba7;
-    width: 95%;
+    width: 100%;
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -87,7 +87,6 @@ article {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
 
     .section-1 .b1 h1{
@@ -160,6 +159,98 @@ article {
         margin-bottom: 1em;
     }
     /* <<<<< SECCION  3 >>>>> */
+
+    /* <<<<< SECCION  4 >>>>> */
+
+.section-4 { 
+    background-color: #407ba7;
+    width: 100%;
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+    .section-4 .formulario h2 { 
+        text-transform: uppercase;
+        padding: 1em 0 1em 0;
+        
+
+    }
+    .section-4 .formulario {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 3em 2em 10em;
+        color:white;
+    }
+
+    .section-4 .formulario input { 
+        margin-bottom: 0.8em;
+        height: 30px;
+        width: 280px;
+        border-radius: 3px;
+        border-style: none;
+    }
+
+    .section-4 .formulario textarea { 
+        margin: 1.2em 0 1.2em 0;
+    }
+
+    .section-4 .formulario ::placeholder {
+        padding-left: 0.8em;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+
+    .section-4 .formulario .btn { 
+        background-color: #ff002b;
+        color:white;
+        text-transform: uppercase;
+    }
+
     
 
 /* FIN DE SECCION*/
+
+
+/*  <<<<< FOOTER >>>>> */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.973) ;
+    width: 100%;
+    height: 110px;
+    padding: 2em 0 2em 0; 
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .pie-b1 {
+        width: 30%;
+        margin-left: 8em;
+    }
+
+    footer ul li {
+        list-style: none;
+        margin-bottom: 4px;
+    }
+
+    footer ul li a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+    .pie-b3 { 
+        width: 30%;
+        margin-left: 8em;
+    }
+    
+    .pie-b3 p {
+        margin: 0 0 1em 3em;
+    }
+
+    .pie-b3 img { 
+
+        width: 42px;
+        height: 42px;
+        margin-left: 3em;
+    }
