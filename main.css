@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mochiy+Pop+One&family=Rajdhani:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00043a;
+    display: flex;
+    justify-content: center;
+}
+header {
+    background-color: #407ba7;
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    width: 95%;
+    height: 50px;
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo { 
+    display: flex;
+    align-items: center;
+}
+
+.logo img { 
+    width: 300px;
+    margin-left: 2em;
+}
+
+.navegador{
+    display: flex;
+}
+
+
+.navegador ul{
+    display: flex;
+    align-items: center;    
+}
+
+.navegador ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+.navegador ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.8em;   
+}
+
+.navegador ul li a:hover{
+    border-bottom: solid 2px  #00043a;
+    color: #00043a;
+}
