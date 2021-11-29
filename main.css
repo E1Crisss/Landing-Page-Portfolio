@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mochiy+Pop+One&family=Rajdhani:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Mochiy+Pop+One&family=Rajdhani:wght@300;400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -7,18 +7,22 @@
 
 body {
     background-color: #00043a;
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+/* INICIO LOGO Y NAV */
+
 header {
     background-color: #407ba7;
-    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
     width: 95%;
     height: 50px;
-    border-radius: 0 0 4px 4px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
 }
 
 .logo { 
@@ -58,3 +62,104 @@ header {
     border-bottom: solid 2px  #00043a;
     color: #00043a;
 }
+
+/* FIN DEL LOGO Y NAV */
+
+/* INICIO DE SECCION*/
+
+article { 
+    background-color: #fff ;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    padding-top: 8em;
+}
+
+/* <<<<< SECCION  1 >>>>> */
+
+.section-1{
+    display: flex;
+    margin: 0 3em 13em 3em;
+}
+
+    .section-1 .b1{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .section-1 .b1 h1{
+        text-align: center;
+        font-size: 2.5em;
+        margin: 2em 0 0.5em 0;
+    }
+
+    .section-1 .b1 p {
+        text-align: center;
+        margin-bottom: 1em;
+        font-weight: 500;
+    }
+
+    .section-1 .b1 a {
+        text-decoration: none;
+        padding: 8px;
+        background-color: #ff002b;
+        border-radius: 5px;
+        color:white;
+
+    }
+
+    .section-1 .b2{
+        width: 50%;
+        height: 200px;
+    }
+    
+    .section-1 .b2 img{
+        width: 540px;
+        height: 380px;    
+    }          
+
+    /* <<<<< SECCION  1 >>>>> */
+
+    /* <<<<< SECCION  2 >>>>> */
+
+    .section-2 p {
+        text-align: center;
+        margin: 0 10em 0 10em;
+        font-size: 1.2em;
+    }
+
+     /* <<<<< SECCION  2 >>>>> */
+
+    /* <<<<< SECCION  3 >>>>> */
+.section-3 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+    .section-3 {
+        margin: 6em 0 2em 0em;
+    }
+
+    .section-3 .b3 img{
+        width: 540px;
+        height: 380px;   
+    }
+
+    .section-3 .b4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 4em 0 1em;
+    }
+    
+    .section-3 .b4 h2{
+        margin-bottom: 1em;
+    }
+    /* <<<<< SECCION  3 >>>>> */
+    
+
+/* FIN DE SECCION*/
